@@ -1,0 +1,93 @@
+/* Configurações de estilo */
+
+:root {
+    --main-radius: 1rem;
+    --input-radius: 1rem;
+    --font-default1: 'Maiandra GD';
+    /* --font-default2: 'Segoe UI'; */
+    /* --font-default3: 'Gill Sans MT'; */
+    --font-default4: 'Lucida Sans';
+    /* --font-default5: 'Mate'; */
+    /* --font-default6: 'Calibri'; */
+    /* --font-default7: 'Eras ITC'; */
+    /* --font-default8: 'Consolas'; */
+    --font-style: italic;
+}
+
+/*------------------------------------------------------*/
+/* ELEMENTOS: */
+html {
+	font-size: 1.42vh;
+    /* 10 px ~= 1 rem */
+}
+		
+body {
+	/* font-family: var(--font-default); */
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/*------------------------------------------------------*/
+/* CLASSES: */
+.div_geral {
+    border: 0.5rem solid rgb(0% 40% 20%);
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+
+.par_geral {
+    display: flex;
+    justify-content: center;
+
+    font-family: var(--font-default1);
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(50% 20% 90%);
+}
+
+/*------------------------------------------------------*/
+/* IDs: */
+#div_titulo {
+    border: 0.5rem solid rgb(10% 20% 70%);
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+#par_titulo {    
+    font-family: var(--font-default4);
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(10% 20% 70%);
+    
+    display: inline;
+}
+
+/*------------------------------------------------------*/
+
+/* 
+Font names list:
+- Arial
+- Calibri
+- Cambria
+- Candara
+- Century Gothic
+- Cochin
+- Comic Sans MS
+- Consolas
+- Corbel
+- Courier New
+- Franklin Gothic Medium
+- Georgia
+- Impact
+- Lucida Console
+- Lucida Grande
+- Lucida Sans Unicode
+- Palatino Linotype
+- Segoe Print
+- Segoe Script
+- Segoe UI
+- Tahoma
+- Times New Roman
+- Trebuchet MS
+- Verdana
+*/    
