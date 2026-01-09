@@ -11,3 +11,5 @@ for (let i = 0; i < arr_teste.length; i++) {
     document.getElementById('par_dados2').innerHTML += `${arr_teste[i] + '<br>'} ` 
 }
 
+//-------------------------------------------------------------------------------
+// Tabela:

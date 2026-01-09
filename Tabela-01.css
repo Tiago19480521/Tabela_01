@@ -30,19 +30,16 @@ body {
 /*------------------------------------------------------*/
 /* CLASSES: */
 .div_geral {
-    border: 0.5rem solid rgb(0% 40% 20%);
+    border: 0.5rem solid rgb(50% 40% 20%);
     border-radius: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;;
 }
 
 .par_geral {
     display: flex;
     justify-content: center;
 
-    font-family: var(--font-default1);
-    font-size: 3rem;
     font-weight: 600;
-    color: rgb(50% 20% 90%);
 }
 
 /*------------------------------------------------------*/
@@ -51,15 +48,31 @@ body {
     border: 0.5rem solid rgb(10% 20% 70%);
     border-radius: 3rem;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 #par_titulo {    
-    font-family: var(--font-default4);
+    display: inline;
+
+    font-family: var(--font-default1);
     font-size: 4rem;
     font-weight: 600;
-    color: rgb(10% 20% 70%);
-    
+    color: rgb(80% 10% 50%);
+}
+
+#par_dados1 {
+    font-family: var(--font-default4);
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(10% 20% 70%);    
+}
+#par_dados2 {
     display: inline;
+
+    font-family: var(--font-default4);
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(10% 20% 70%);    
 }
 
 /*------------------------------------------------------*/
