@@ -4,13 +4,13 @@
     --main-radius: 1rem;
     --input-radius: 1rem;
     --font-default1: 'Maiandra GD';
-    /* --font-default2: 'Segoe UI'; */
-    /* --font-default3: 'Gill Sans MT'; */
+    --font-default2: 'Segoe UI';
+    --font-default3: 'Gill Sans MT';
     --font-default4: 'Lucida Sans';
-    /* --font-default5: 'Mate'; */
-    /* --font-default6: 'Calibri'; */
-    /* --font-default7: 'Eras ITC'; */
-    /* --font-default8: 'Consolas'; */
+    --font-default5: 'Mate';
+    --font-default6: 'Calibri';
+    --font-default7: 'Eras ITC';
+    --font-default8: 'Consolas';
     --font-style: italic;
 }
 
@@ -25,6 +25,12 @@ body {
 	/* font-family: var(--font-default); */
     text-align: center;
     background-color: antiquewhite;
+}
+
+th {
+    border: 0.3rem solid rgb(50% 40% 20%);
+    border-radius: 1rem;
+    padding: 0.6rem
 }
 
 /*------------------------------------------------------*/
@@ -51,6 +57,17 @@ body {
     margin-bottom: 1rem;
 }
 
+#div_tabela {
+    display: flex;
+    justify-content: center;
+
+    border: 0.5rem solid rgb(70% 20% 10%);
+    border-radius: 2rem;
+
+    font-family: var(--font-default2);
+    font-size: 2rem;
+    color: rgb(0% 40% 10%)
+}
 #par_titulo {    
     display: inline;
 
